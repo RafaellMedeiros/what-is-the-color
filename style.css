@@ -1,0 +1,150 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.backgroudTitle {
+  background: #596678;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.title{
+  width: 46%;
+  height: 17%;
+  background: white;
+  border-radius: 4px;
+  background-image: repeating-linear-gradient(to right,
+  #c4e17f 0px, #c4e17f 50px,
+  #f7fdca 50px, #f7fdca 100px,
+  #fad071 100px, #fad071 150px,
+  #f0766b 150px, #f0766b 200px,
+  #db9dbe 200px, #db9dbe 250px,
+  #c49cdf 250px, #c49cdf 300px,
+  #6599e2 300px, #6599e2 350px,
+  #61c2e4 350px, #61c2e4 400px);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1{
+  font-size: 66px;
+  font-family: 'Lobster', cursive;
+}
+
+label {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+}
+
+.inputRed,
+.inputGreen,
+.inputBlue {
+  display: flex;
+  width: 305px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lobster', cursive;
+  border: 2px solid #f7fdca;
+  margin-bottom: 20px;
+  border-radius: 35px;
+  box-shadow: 17px 10px 28px -7px black;
+  background-color: lightgrey;
+}
+
+.value {
+  width: 30px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+.color1,
+.color2,
+.color3,
+.color4,
+.color5 {
+  width: 200px;
+  height: 180px;
+  background: white;
+  margin-top: 50px;
+}
+
+
+#color1 {
+  left: 0px;
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+#color2 {
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+#color3 {
+  clip-path: polygon(70% 0, 100% 51%, 75% 100%, 25% 100%, 0% 50%, 30% 0);
+}
+#color4 {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+#color5 {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+
+.container {
+  width: 1100px;
+  height: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: white;
+  border-radius: 4px;
+  background-image: repeating-linear-gradient(to right,
+  #c4e17f 0px, #c4e17f 50px,
+  #f7fdca 50px, #f7fdca 100px,
+  #fad071 100px, #fad071 150px,
+  #f0766b 150px, #f0766b 200px,
+  #db9dbe 200px, #db9dbe 250px,
+  #c49cdf 250px, #c49cdf 300px,
+  #6599e2 300px, #6599e2 350px,
+  #61c2e4 350px, #61c2e4 400px);
+  background-size: 100% 25px;
+  background-repeat: no-repeat;
+}
+
+.mult {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.multFactor {
+  display: flex;
+  width: 305px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: 'Lobster', cursive;
+  border: 2px solid #f7fdca;
+  margin-bottom: 20px;
+  border-radius: 35px;
+  box-shadow: 17px 10px 28px -7px black;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+::-webkit-input-placeholder  {
+   font-size: 14px; 
+  }
